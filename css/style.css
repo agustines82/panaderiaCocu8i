@@ -1,0 +1,14 @@
+.text-justify {
+    text-align: justify;
+}
+ img.sepiado:hover{
+    filter: sepia(1);
+    cursor: pointer;
+}
+
+@media all and (max-width: 767px) {
+    .bannerResponsive {
+        height: 300px;
+        object-fit: cover;
+    }
+}
